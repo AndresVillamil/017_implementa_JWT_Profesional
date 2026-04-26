@@ -1,0 +1,24 @@
+{
+  "name": "017_implementa_jwt_profesional",
+  "version": "1.0.0",
+  "description": "JWT (JSON Web Token) es un estándar abierto (RFC 7519) que define un formato compacto y autónomo para transmitir información de forma segura entre partes como un objeto JSON. JWT se utiliza comúnmente para la autenticación y autorización en aplicaciones web y móviles. Un JWT consta de tres partes: el encabezado, el cuerpo (payload) y la firma. El encabezado contiene información sobre el tipo de token y el algoritmo de firma utilizado. El cuerpo contiene las afirmaciones (claims) que representan la información que se desea transmitir, como el ID del usuario, roles, etc. La firma se genera utilizando una clave secreta o un par de claves públicas/privadas para garantizar la integridad del token y verificar su autenticidad.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

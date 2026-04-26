@@ -3,7 +3,7 @@
 npm install express morgan dotenv jsonwebtoken cookie-parser
 
 # 🏗️ 📁 Estructura de carpetas (final)
-/
+gg/
  ├── config/
  │    └── env.js
  │
